@@ -1,4 +1,3 @@
-import "./newUser.css";
 import {
   Button,
   TextField,
@@ -14,7 +13,7 @@ import {
 
 export default function NewUser() {
   return (
-    <div className="newUser">
+    <div style={{ flex: 4, padding: 20 }}>
       <h1>New User</h1>
       <form>
         <Box
