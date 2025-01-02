@@ -2,7 +2,7 @@ import "./App.css";
 import Topbar from "./components/topbar/topbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./pages/home/Home";
-import UserList from "./pages/userlist/UserList";
+// import UserList from "./pages/userlist/UserList";
 import User from "./pages/user/User";
 import NewUser from "./pages/newUser/NewUser";
 import Product from "./pages/product/Product";
@@ -18,7 +18,7 @@ function App() {
           <Sidebar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/users" element={<UserList />} />
+            {/* <Route path="/users" element={<UserList />} /> */}
             <Route path="/users/:userId" element={<User />} />
             <Route path="/newUser" element={<NewUser />} />
             <Route path="/products" element={<ProductList />} />
